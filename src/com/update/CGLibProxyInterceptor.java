@@ -20,7 +20,7 @@ public class CGLibProxyInterceptor implements MethodInterceptor {
 
     public Object getProxy(Object target){
         // 代理类class文件存入本地磁盘方便我们反编译查看源码
-        System.setProperty(DebuggingClassWriter.DEBUG_LOCATION_PROPERTY, "D:\\code");
+        System.setProperty(DebuggingClassWriter.DEBUG_LOCATION_PROPERTY, "code/");
         this.target=target;
         /**
          * 动态代码生成器
