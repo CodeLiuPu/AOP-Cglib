@@ -6,4 +6,10 @@ package com.update;
  * desc   :
  */
 public class Demo {
+    public static void main(String[] args) {
+        Hello hello = new Hello();
+        IHello proxy = (IHello) new CGLibProxyInterceptor().getProxy(hello);
+        proxy.say();
+    }
+
 }
