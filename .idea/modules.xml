@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/HelloCglib.iml" filepath="$PROJECT_DIR$/HelloCglib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/AOP-Cglib.iml" filepath="$PROJECT_DIR$/AOP-Cglib.iml" />
     </modules>
   </component>
 </project>
